@@ -14,6 +14,7 @@
         $postContent.fitVids();
 
         $(".scroll-down").arctic_scroll();
+        $(".show-blog").arctic_scroll();
 
         $(".menu-button, .nav-cover, .nav-close").on("click", function(e){
             e.preventDefault();
